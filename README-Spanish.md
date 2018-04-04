@@ -1,5 +1,8 @@
 # EOS.IO Scholar Testnet
 
+#### [Click me switch to English version](README.md)
+#### [点击查看中文版本](README-Chinese.md)
+#### [Haz clic en cambiar a la versión en inglés](README-Spanish.md)
 
 ![logo](https://steemitimages.com/DQmY3LuDiJEseTaHz31XQqW2gsX2r1PMaveCLv5ydaFCz6M/image.png)
 
