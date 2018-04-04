@@ -192,12 +192,12 @@ window.producerList = [
     "P2P": "9876"
   },
   {
-    "logo": "https://meet.one/assets/MEET.png",
+    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
     "producer": "hypatia",
-    "name": "MeetOne",
-    "website": "https://meet.one",
-    "telegram": "https://t.me/wuyahuang",
-    "API_URL": "testnet.meet.one",
+    "name": "EOSUnion",
+    "website": "https://eos.ren",
+    "telegram": "",
+    "API_URL": "testnet.eos.ren",
     "HTTP": "443",
     "P2P": "9876"
   },
