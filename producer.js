@@ -193,7 +193,7 @@ window.producerList = [
     "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
     "producer": "hypatia",
     "name": "EOSUnion",
-    "website": "https://eos.ren",
+    "website": "http://eos.ren",
     "telegram": "",
     "API_URL": "testnet.eos.ren",
     "HTTP": "443",
