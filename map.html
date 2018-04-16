@@ -8,8 +8,13 @@
   <script src="src/js/world.js"></script>
   <script src="producer.js"></script>
 </head>
+<style>
+  *{margin:0;padding:0;}
+  #main{position:fixed;top:0;right:0;bottom:0;left:0;}
+</style>
+
 <body>
-<div id="main" style="position:fixed;top:0;right:0;bottom:0;left:0;"></div>
+<div id="main"></div>
 <script type="text/javascript">
 var myChart = echarts.init(document.getElementById('main'));
 
