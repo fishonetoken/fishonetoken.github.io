@@ -45,7 +45,7 @@ An easy to use website is provided which allows anyone to quickly see the status
 
 https://scholar.eosnation.io
 
-![](https://steemitimages.com/DQmeX1QWVnBRySX1XHerEKyBA6x4ZxLiH111y46c4YLQRYv/image.png)
+![](https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmcZBdjeNdADx7scVU5nPPjkXnNkTKt1S2N5TE3Etd6hqC)
 
 ## Developed & Supported by:
 
