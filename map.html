@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>EOSIO Scholar Testnet</title>
+  <script src="src/js/echarts.min.js"></script>
+  <script src="src/js/bmap.min.js"></script>
+  <script src="src/js/world.js"></script>
+  <script src="producer.js"></script>
+</head>
+<body>
+<div id="main" style="position:fixed;top:0;right:0;bottom:0;left:0;"></div>
+<script type="text/javascript">
+var myChart = echarts.init(document.getElementById('main'));
+
+var data = producerList;
+
+function formtVData(data) {
+  var tGeoDt = [];
+  for (var i = 0, len = data.length; i < len; i++) {
+    var tNam = data[i].name;
+    tGeoDt.push({
+      name: tNam,
+      value: data[i].LngLat
+    });
+  }
+  return tGeoDt;
+}
+
+option = {
+  backgroundColor: '#00000',
+  title: {
+    text: 'EOSIO Scholar Testnet',
+    left: 'center'
+  },
+  geo: {
+    type: 'map',
+    map: 'world',
+    roam: true,
+    itemStyle: {
+      normal: {
+        areaColor: 'white',
+        borderColor: 'black'
+      },
+      emphasis: {
+        areaColor: 'white'
+      }
+    }
+  },
+  tooltip: {
+    trigger: 'item',
+    formatter: function (param) {
+      return param.data.name;
+    }
+  },
+  series: [{
+    type: 'lines',
+    zLevel: 2,
+    effect: {
+      show: true,
+      period: 4, //箭头指向速度，值越小速度越快
+      trailLength: 0.02, //特效尾迹长度[0,1]值越大，尾迹越长重
+      symbol: 'arrow', //箭头图标
+      symbolSize: 5, //图标大小
+    },
+    lineStyle: {
+      normal: {
+        width: 1, //尾迹线条宽度
+        opacity: 0, //尾迹线条透明度
+        curveness: .3 //尾迹线条曲直度
+      }
+    },
+    data: []
+  }, {
+    type: 'effectScatter',
+    coordinateSystem: 'geo',
+    zlevel: 2,
+    rippleEffect: {
+      brushType: 'stroke'
+    },
+    symbolSize: 20,
+    itemStyle: {
+      normal: {
+        color: 'skyblue'
+      },
+      emphasis: {
+        color: 'skyblue'
+      }
+    },
+    data: formtVData(data)
+  }]
+};
+
+myChart.setOption(option);
+</script>
+</body>
+</html>
