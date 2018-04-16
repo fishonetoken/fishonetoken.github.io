@@ -15,18 +15,6 @@ var myChart = echarts.init(document.getElementById('main'));
 
 var data = producerList;
 
-function formtVData(data) {
-  var tGeoDt = [];
-  for (var i = 0, len = data.length; i < len; i++) {
-    var tNam = data[i].name;
-    tGeoDt.push({
-      name: tNam,
-      value: data[i].LngLat
-    });
-  }
-  return tGeoDt;
-}
-
 var convertData = function (data, from) {
   var res = [];
   for (var i = 0; i < data.length; i++) {
@@ -45,33 +33,58 @@ var convertData = function (data, from) {
   return res;
 };
 
-function getInitSeries() {
-  return [{
+function getScatterStyle(isActive, data) {
+  return {
     type: 'effectScatter',
     coordinateSystem: 'geo',
     zlevel: 2,
     rippleEffect: {
-      brushType: 'stroke'
+      brushType: isActive ? 'stroke' : 'none'
     },
     symbolSize: 20,
     itemStyle: {
       normal: {
-        color: 'skyblue'
+        color: isActive ? 'lime' : 'orange'
       },
       emphasis: {
-        color: 'skyblue'
+        color: isActive ? 'lime' : 'orange'
       }
     },
-    data: formtVData(data)
-  }];
+    data: data
+  }
 }
+
+function getInitSeries() {
+  var defaultProducer = [];
+  var activeProducer = [];
+  for (var i = 0, len = data.length; i < len; i++) {
+    var tNam = data[i].name;
+    if (i !== currentIndex) {
+      defaultProducer.push({
+        name: tNam,
+        value: data[i].LngLat
+      });
+    } else {
+      activeProducer.push({
+        name: tNam,
+        value: data[i].LngLat
+      });
+    }
+  }
+
+  return [getScatterStyle(false, defaultProducer), getScatterStyle(true, activeProducer)];
+}
+
 var series = getInitSeries();
 
 var option = {
-  backgroundColor: '#00000',
+  backgroundColor: '#404a59',
   title: {
     text: 'EOSIO Scholar Testnet',
-    left: 'center'
+    left: 'center',
+    textStyle: {
+      color: '#fff'
+    }
   },
   geo: {
     type: 'map',
@@ -79,11 +92,11 @@ var option = {
     roam: true,
     itemStyle: {
       normal: {
-        areaColor: 'white',
-        borderColor: 'black'
+        color: 'rgba(51, 69, 89, .5)',
+        borderColor: 'rgba(100,149,237,1)'
       },
       emphasis: {
-        areaColor: 'white'
+        color: 'rgba(37, 43, 61, .5)'
       }
     }
   },
@@ -102,19 +115,20 @@ var currentIndex = 0;
 
 function render() {
   series = getInitSeries();
+
   series.push({
     type: 'lines',
     zlevel: 2,
     effect: {
       show: true,
-      period: 0.5,
+      period: 2,
       trailLength: 0.01,
       symbol: 'arrow',
       symbolSize: 5
     },
     lineStyle: {
       normal: {
-        color: 'green',
+        color: 'lime',
         width: 1
       }
     },
@@ -132,6 +146,7 @@ function render() {
     render();
   }, 500);
 }
+
 render();
 </script>
 </body>
