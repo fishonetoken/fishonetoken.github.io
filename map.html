@@ -27,7 +27,47 @@ function formtVData(data) {
   return tGeoDt;
 }
 
-option = {
+var convertData = function (data, from) {
+  var res = [];
+  for (var i = 0; i < data.length; i++) {
+    var dataItem = data[i];
+    var fromCoord = data[from].LngLat;
+    var toCoord = data[i].LngLat;
+    if (fromCoord && toCoord) {
+      res.push([{
+        coord: fromCoord
+      }, {
+        coord: toCoord,
+        value: dataItem.LngLat
+      }]);
+    }
+  }
+  return res;
+};
+
+function getInitSeries() {
+  return [{
+    type: 'effectScatter',
+    coordinateSystem: 'geo',
+    zlevel: 2,
+    rippleEffect: {
+      brushType: 'stroke'
+    },
+    symbolSize: 20,
+    itemStyle: {
+      normal: {
+        color: 'skyblue'
+      },
+      emphasis: {
+        color: 'skyblue'
+      }
+    },
+    data: formtVData(data)
+  }];
+}
+var series = getInitSeries();
+
+var option = {
   backgroundColor: '#00000',
   title: {
     text: 'EOSIO Scholar Testnet',
@@ -53,45 +93,46 @@ option = {
       return param.data.name;
     }
   },
-  series: [{
-    type: 'lines',
-    zLevel: 2,
-    effect: {
-      show: true,
-      period: 4, //箭头指向速度，值越小速度越快
-      trailLength: 0.02, //特效尾迹长度[0,1]值越大，尾迹越长重
-      symbol: 'arrow', //箭头图标
-      symbolSize: 5, //图标大小
-    },
-    lineStyle: {
-      normal: {
-        width: 1, //尾迹线条宽度
-        opacity: 0, //尾迹线条透明度
-        curveness: .3 //尾迹线条曲直度
-      }
-    },
-    data: []
-  }, {
-    type: 'effectScatter',
-    coordinateSystem: 'geo',
-    zlevel: 2,
-    rippleEffect: {
-      brushType: 'stroke'
-    },
-    symbolSize: 20,
-    itemStyle: {
-      normal: {
-        color: 'skyblue'
-      },
-      emphasis: {
-        color: 'skyblue'
-      }
-    },
-    data: formtVData(data)
-  }]
+  series: series
 };
 
 myChart.setOption(option);
+
+var currentIndex = 0;
+
+function render() {
+  series = getInitSeries();
+  series.push({
+    type: 'lines',
+    zlevel: 2,
+    effect: {
+      show: true,
+      period: 0.5,
+      trailLength: 0.01,
+      symbol: 'arrow',
+      symbolSize: 5
+    },
+    lineStyle: {
+      normal: {
+        color: 'green',
+        width: 1
+      }
+    },
+    data: convertData(data, currentIndex)
+  });
+  if (currentIndex < data.length - 1) {
+    currentIndex++;
+  } else {
+    currentIndex = 0;
+  }
+  option.series = series;
+  myChart.setOption(option);
+
+  setTimeout(function () {
+    render();
+  }, 500);
+}
+render();
 </script>
 </body>
 </html>
