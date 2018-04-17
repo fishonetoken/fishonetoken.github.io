@@ -69,7 +69,7 @@ window.producerList = [
     "HTTP": "443",
     "P2P": "9876",
     "keybase": "",
-    "LngLat": [-121.5342, 37.2021]
+    "LngLat": [-117.5969, 34.1062]
   },
   {
     "logo": "https://meet.one/assets/MEET.png",
