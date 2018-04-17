@@ -11,28 +11,6 @@ window.producerList = [
     "keybase": ""
   },
   {
-    "logo": "https://avatars0.githubusercontent.com/u/22501691?s=200&v=4",
-    "producer": "bitspace",
-    "organization_name": "bitspace",
-    "website": "https://bitspace.no",
-    "telegram_user": "Lars Ihler - BitSpace || Frederic Lhote - BitSpace",
-    "API_URL": "eos.bitspace.no",
-    "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
-    "logo": "http://x.dac.ph/images/DAC-logo.png",
-    "producer": "dac.gac",
-    "organization_name": "dac-gac",
-    "website": "http://dac.ph/",
-    "telegram_user": "shiyong-ccx-dac",
-    "API_URL": "testnet.dacgac.io",
-    "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
     "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
     "producer": "cafe.calgary",
     "organization_name": "eos-cafe-calgary",
@@ -44,28 +22,6 @@ window.producerList = [
     "keybase": ""
   },
   {
-    "logo": "https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png",
-    "producer": "eos.cannon",
-    "organization_name": "eos-cannon",
-    "website": "https://eoscannon.io",
-    "telegram_user": "Luckybean",
-    "API_URL": "testnet.eoscannon.io",
-    "HTTP": "443",
-    "P2P": "9999",
-    "keybase": ""
-  },
-  {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "eos.detroit",
-    "organization_name": "eos-detroit",
-    "website": "https://eosdetroit.com",
-    "telegram_user": "robrigo",
-    "API_URL": "scholar.eosdetroit.com",
-    "HTTP": "8880",
-    "P2P": "7777",
-    "keybase": ""
-  },
-  {
     "logo": "https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true",
     "producer": "eos.dublin",
     "organization_name": "eos-dublin",
@@ -73,17 +29,6 @@ window.producerList = [
     "telegram_user": "samnoble",
     "API_URL": "testnet.eosdublin.io",
     "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "eos.nairobi",
-    "organization_name": "eos-nairobi",
-    "website": "http://eosnairobi.io",
-    "telegram_user": "skypee",
-    "API_URL": "testnet.eosnairobi.io",
-    "HTTP": "8888",
     "P2P": "9876",
     "keybase": ""
   },
@@ -99,17 +44,6 @@ window.producerList = [
     "keybase": ""
   },
   {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "eos.new.york",
-    "organization_name": "eos-new-york",
-    "website": "http://eosnewyork.io",
-    "telegram_user": "deckw",
-    "API_URL": "scholar.eosnewyork.io",
-    "HTTP": "8800",
-    "P2P": "9874",
-    "keybase": ""
-  },
-  {
     "logo": "https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png",
     "producer": "eos.sydney",
     "organization_name": "eos-sydney",
@@ -117,28 +51,6 @@ window.producerList = [
     "telegram_user": "Ralf Weinand - EOS Sydney",
     "API_URL": "scholar.eosyd.io",
     "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "eos.wtz",
-    "organization_name": "eos-wtz",
-    "website": "",
-    "telegram_user": "artist",
-    "API_URL": "eos.artphp.top",
-    "HTTP": "443",
-    "P2P": "9999",
-    "keybase": ""
-  },
-  {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "eos42",
-    "organization_name": "eos42",
-    "website": "https://eos42.io",
-    "telegram_user": "ankh2054",
-    "API_URL": "bp3-d3.eos42.io",
-    "HTTP": "8888",
     "P2P": "9876",
     "keybase": ""
   },
@@ -172,17 +84,6 @@ window.producerList = [
     "telegram_user": "timogilvie",
     "API_URL": "eos.coinstakes.io",
     "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
-    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
-    "producer": "wancloud",
-    "organization_name": "",
-    "website": "",
-    "telegram_user": "ahlifei",
-    "API_URL": "128.1.133.206",
-    "HTTP": "8888",
     "P2P": "9876",
     "keybase": ""
   },
