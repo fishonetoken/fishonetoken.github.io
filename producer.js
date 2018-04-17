@@ -97,5 +97,16 @@ window.producerList = [
     "HTTP": "8888",
     "P2P": "9876",
     "keybase": ""
+  },
+  {
+    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
+    "producer": "eos.union",
+    "organization_name": "eos-union",
+    "website": "http://www.eos.ren",
+    "telegram_user": "heipacker",
+    "API_URL": "testnet.eos.ren",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
   }
 ];
