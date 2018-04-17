@@ -1,81 +1,222 @@
-var defaultLogo = "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png"
-
 window.producerList = [
   {
-    "logo": "https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png",
-    "producer": "einstein",
-    "name": "EOS Nation",
-    "website": "https://eosnation.io",
-    "telegram": "https://t.me/DenisCarriere",
-    "API_URL": "testnet.eosnation.io",
+    "logo": "https://steemitimages.com/DQmUrhqujRL9kopgqfvcQ2fJpwqEQYqcndyCMs122CyMYGK/Bite_logo.jpg",
+    "producer": "bitcoin.eos",
+    "organization_name": "bitcoin-eos",
+    "website": "http://bitcoineos.fun/",
+    "telegram_user": "steemalf",
+    "API_URL": "46.4.253.242",
+    "HTTP": "7070",
+    "P2P": "7080",
+    "keybase": ""
+  },
+  {
+    "logo": "https://avatars0.githubusercontent.com/u/22501691?s=200&v=4",
+    "producer": "bitspace",
+    "organization_name": "bitspace",
+    "website": "https://bitspace.no",
+    "telegram_user": "Lars Ihler - BitSpace || Frederic Lhote - BitSpace",
+    "API_URL": "eos.bitspace.no",
     "HTTP": "443",
     "P2P": "9876",
-    "LngLat": [-83.42479, 42.16242]
+    "keybase": ""
   },
   {
     "logo": "https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png",
-    "producer": "aristotle",
-    "name": "Crypto Lions",
+    "producer": "crypto.lions",
+    "organization_name": "CryptoLions.io",
     "website": "http://cryptolions.io",
-    "telegram": "https://t.me/Bohdan",
+    "telegram_user": "Bohdan",
     "API_URL": "scholartestnet.cryptolions.io",
     "HTTP": "8911",
     "P2P": "9900",
-    "LngLat": [30.3100, 50.25599]
+    "keybase": ""
   },
   {
-    "logo": defaultLogo,
-    "producer": "suntzu",
-    "name": "Coinstakes",
-    "website": "https://coinstakes.io",
-    "telegram": "https://t.me/timogilvie",
-    "API_URL": "eos.coinstakes.io",
+    "logo": "http://x.dac.ph/images/DAC-logo.png",
+    "producer": "dac.gac",
+    "organization_name": "dac-gac",
+    "website": "http://dac.ph/",
+    "telegram_user": "shiyong-ccx-dac",
+    "API_URL": "testnet.dacgac.io",
     "HTTP": "443",
     "P2P": "9876",
-    "LngLat": [-95.3508, 29.4158]
+    "keybase": ""
   },
   {
-    "logo": "https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png",
-    "producer": "descartes",
-    "name": "EOSoCal",
-    "website": "https://eosocal.io",
-    "telegram": "https://t.me/gmory",
-    "API_URL": "testnet.eosocal.io",
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "cafe.calgary",
+    "organization_name": "eos-cafe-calgary",
+    "website": "https://eos.cafe",
+    "telegram_user": "n_doy",
+    "API_URL": "eoscal.wxrepository.ca",
     "HTTP": "443",
     "P2P": "9876",
-    "LngLat": [-121.5342, 37.2021]
-  },
-  {
-    "logo": "https://meet.one/assets/MEET.png",
-    "producer": "kant",
-    "name": "MeetOne",
-    "website": "https://meet.one",
-    "telegram": "https://t.me/wuyahuang",
-    "API_URL": "testnet.meet.one",
-    "HTTP": "443",
-    "P2P": "9876",
-    "LngLat": [-97.0000, 38.0000]
-  },
-  {
-    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
-    "producer": "hypatia",
-    "name": "EOSUnion",
-    "website": "http://eos.ren",
-    "telegram": "",
-    "API_URL": "testnet.eos.ren",
-    "HTTP": "443",
-    "P2P": "9876",
-    "LngLat": [-122.3306, 37.5474]
+    "keybase": ""
   },
   {
     "logo": "https://user-images.githubusercontent.com/550895/37975332-0f87ca08-31ad-11e8-83a0-9a000e47cc30.png",
-    "producer": "edison",
-    "name": "EOS Cannon",
+    "producer": "eos.cannon",
+    "organization_name": "eos-cannon",
     "website": "https://eoscannon.io",
-    "telegram": "https://t.me/Luckybean",
+    "telegram_user": "Luckybean",
     "API_URL": "testnet.eoscannon.io",
     "HTTP": "443",
     "P2P": "9999",
-    "LngLat": [-122.3306, 37.5474]
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "eos.detroit",
+    "organization_name": "eos-detroit",
+    "website": "https://eosdetroit.com",
+    "telegram_user": "robrigo",
+    "API_URL": "scholar.eosdetroit.com",
+    "HTTP": "8880",
+    "P2P": "7777",
+    "keybase": ""
+  },
+  {
+    "logo": "https://github.com/eosdublin/eosdublin/blob/master/images/logo_light_100x100.jpg?raw=true",
+    "producer": "eos.dublin",
+    "organization_name": "eos-dublin",
+    "website": "https://eosdublin.com",
+    "telegram_user": "samnoble",
+    "API_URL": "testnet.eosdublin.io",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "eos.nairobi",
+    "organization_name": "eos-nairobi",
+    "website": "http://eosnairobi.io",
+    "telegram_user": "skypee",
+    "API_URL": "testnet.eosnairobi.io",
+    "HTTP": "8888",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37734119-9f6ead4e-2d20-11e8-8d37-35e60ffb9c22.png",
+    "producer": "eos.nation",
+    "organization_name": "eos-nation",
+    "website": "https://eosnation.io",
+    "telegram_user": "DenisCarriere",
+    "API_URL": "scholarnet.eosnation.io",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "eos.new.york",
+    "organization_name": "eos-new-york",
+    "website": "http://eosnewyork.io",
+    "telegram_user": "deckw",
+    "API_URL": "scholar.eosnewyork.io",
+    "HTTP": "8800",
+    "P2P": "9874",
+    "keybase": ""
+  },
+  {
+    "logo": "https://s3-ap-southeast-2.amazonaws.com/eosyd-web/eosyd-logo-100.png",
+    "producer": "eos.sydney",
+    "organization_name": "eos-sydney",
+    "website": "https://eosyd.io",
+    "telegram_user": "Ralf Weinand - EOS Sydney",
+    "API_URL": "scholar.eosyd.io",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
+    "producer": "eos.union",
+    "organization_name": "eos-union",
+    "website": "http://www.eos.ren",
+    "telegram_user": "heipacker",
+    "API_URL": "testnet.eos.ren",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "eos.wtz",
+    "organization_name": "eos-wtz",
+    "website": "",
+    "telegram_user": "artist",
+    "API_URL": "eos.artphp.top",
+    "HTTP": "443",
+    "P2P": "9999",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "eos42",
+    "organization_name": "eos42",
+    "website": "https://eos42.io",
+    "telegram_user": "ankh2054",
+    "API_URL": "bp3-d3.eos42.io",
+    "HTTP": "8888",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png",
+    "producer": "eosocal",
+    "organization_name": "eosocal",
+    "website": "https://eosocal.io",
+    "telegram_user": "gmory",
+    "API_URL": "testnet.eosocal.io",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://meet.one/assets/MEET.png",
+    "producer": "meet.one",
+    "organization_name": "meet-one",
+    "website": "https://meet.one/en",
+    "telegram_user": "wuyahuang",
+    "API_URL": "testnet.meet.one",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "staked",
+    "organization_name": "Staked",
+    "website": "https://staked.us",
+    "telegram_user": "timogilvie",
+    "API_URL": "eos.coinstakes.io",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "wancloud",
+    "organization_name": "",
+    "website": "",
+    "telegram_user": "ahlifei",
+    "API_URL": "128.1.133.206",
+    "HTTP": "8888",
+    "P2P": "9876",
+    "keybase": ""
+  },
+  {
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
+    "producer": "worbli",
+    "organization_name": "worbli",
+    "website": "https://eos.worbli.io",
+    "telegram_user": "Robert Dewilder - Worbli",
+    "API_URL": "scholar.worbli.io",
+    "HTTP": "8888",
+    "P2P": "9876",
+    "keybase": ""
   }
 ];
