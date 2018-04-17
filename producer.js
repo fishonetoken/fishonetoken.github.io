@@ -22,17 +22,6 @@ window.producerList = [
     "keybase": ""
   },
   {
-    "logo": "https://user-images.githubusercontent.com/550895/37839395-b78202ca-2e90-11e8-87b8-2ee5539e16ff.png",
-    "producer": "crypto.lions",
-    "organization_name": "CryptoLions.io",
-    "website": "http://cryptolions.io",
-    "telegram_user": "Bohdan",
-    "API_URL": "scholartestnet.cryptolions.io",
-    "HTTP": "8911",
-    "P2P": "9900",
-    "keybase": ""
-  },
-  {
     "logo": "http://x.dac.ph/images/DAC-logo.png",
     "producer": "dac.gac",
     "organization_name": "dac-gac",
@@ -127,17 +116,6 @@ window.producerList = [
     "website": "https://eosyd.io",
     "telegram_user": "Ralf Weinand - EOS Sydney",
     "API_URL": "scholar.eosyd.io",
-    "HTTP": "443",
-    "P2P": "9876",
-    "keybase": ""
-  },
-  {
-    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
-    "producer": "eos.union",
-    "organization_name": "eos-union",
-    "website": "http://www.eos.ren",
-    "telegram_user": "heipacker",
-    "API_URL": "testnet.eos.ren",
     "HTTP": "443",
     "P2P": "9876",
     "keybase": ""
