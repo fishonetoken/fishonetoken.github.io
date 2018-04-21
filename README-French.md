@@ -3,54 +3,54 @@
 #### [Click me switch to English version](README.md)
 #### [点击查看中文版本](README-Chinese.md)
 #### [Haz clic en cambiar a la versión en inglés](README-Spanish.md)
-#### [Click me switch to French version](README-French.md)
+#### [Cliqué ici pour la version française](README-French.md)
 
 ![logo](https://steemitimages.com/DQmY3LuDiJEseTaHz31XQqW2gsX2r1PMaveCLv5ydaFCz6M/image.png)
 
 > Educating the community one block at a time
 
-EOS Scholar Testnet was founded with the vision to provide learning & educational material to Block Producer candidates to give them the opportunity to be involved in a live & safe EOS Testnet environment.
+EOS Scholar Testnet a été créé en ayant comme vision de fournir du matériel d'apprentissage et éducatif aux candidats Producteurs de Blocs afin de leur donner l’occasion de s'impliquer dans l’environnement EOS sur un réseau-essai sécuritaire et fonctionnel.
 
-## Goals & Vision
+## Vision & Objectifs
 
-- Opportunity to Learn on a live EOS Testnet
-- Collection of Best Practices
-- EOS.IO BP Server Configurations
-- Troubleshooting & Support
-- Multilingual Documentation
-- High Frequency Rotation of Block Producers
-- Security & Networking audits
-- Establishing Master/Slave Failover Protocol and Configuration
+- Possibilité d'apprendre sur un réseau-essai EOS fonctionnel
+- Collecte des meilleures pratiques
+- Configurations du serveur PB EOS.IO
+- Dépannage et support
+- Documentation multilingue
+- Rotation à haute fréquence des producteurs de blocs
+- Audits de sécurité et de mise en réseau
+- Établissement du protocole et de la configuration de basculement maître / esclave
 
-### Live Chat (Telegram)
+### Clavardage En Ligne (Télégramme)
 
-Active development conducted on Telegram:
+Développement actif réalisé sur Telegram:
 
 https://t.me/ScholarTestnet
 
-## Early Bird Access (Join Now)
+## Accès Premiers Arrivés (Inscrivez-vous maintenant)
 
-For those interested in joining the EOS Scholar Testnet and want early bird access:
+Pour ceux qui souhaitent rejoindre EOS Scholar Testnet et qui souhaitent bénéficier d'un accès anticipé:
 
-[Please fill out this form](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
+[S'il vous plaît, remplissez ce formulaire](https://docs.google.com/forms/d/1wUrzzyyzqQAPIGaikxrJEKq9iDnICO9bw4mkaXalu0Y).
 
-## Open Source
+## Livre Ouvert
 
-Join the development on GitHub, all source code & documentation will be made available publically for everyone to use. Please don't hesitate to contribute to this community driven initiative.
+Rejoindre le développement sur GitHub, toute la source des codes et la documentation seront disponibles publiquement pour que tout le monde puisse l’utiliser. N'hésitez pas à contribuer à cette initiative communautaire.
 
 [github.com/ScholarTestnet](https://github.com/ScholarTestnet)
 
-## Block Producer Explorer
+## Explorateur de Producteurs de Blocs
 
-An easy to use website is provided which allows anyone to quickly see the status & details of each Block Producer that is currently connected to one of the EOS.IO Scholar Testnet(s).
+Un site Web facile à utiliser est fourni et permet à quiconque de voir rapidement l'état et les détails de chaque Producteur de Blocs qui sont actuellement connectés à l'un des EOS Scholar Testnet.
 
 https://scholar.eosnation.io
 
 ![](https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmcZBdjeNdADx7scVU5nPPjkXnNkTKt1S2N5TE3Etd6hqC)
 
-## Developed & Supported by:
+## Développé et Soutenu par:
 
-EOS.IO Scholar Testnet is currently being developed & supported by the following organizations:
+EOS.IO Scholar Testnet est actuellement développé et soutenu par les organisations suivantes:
 
 - [EOS Nation](https://eosnation.io)
 - [EOSoCal](https://eosocal.io)
@@ -60,9 +60,9 @@ EOS.IO Scholar Testnet is currently being developed & supported by the following
 
 ![](https://steemitimages.com/DQmYnhbZa27rMWATX3pivecU5G2DtEKWoUNEZrtKkP3pqW8/image.png)
 
-## Social Media
+## Médias Sociaux
 
-To stay connected with EOS Nation's upcoming news, please join any or all our social media communities:
+Pour être au courant des nouvelles à venir de EOS Nation, venez nous rejoindre sur l’une ou plusieurs de nos communautés présentes sur les médias sociaux:
 
 - **Facebook**: https://www.facebook.com/groups/EOSNation/
 - **Telegram**: https://t.me/EOSNation
