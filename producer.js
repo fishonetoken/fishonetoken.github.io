@@ -60,7 +60,7 @@ window.producerList = [
     ]
   },
   {
-    "logo": "EOS-Cafe/eos cafe icon mark.png",
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
     "producer": "eos.cafe",
     "organization_name": "EOS Cafe Calgary",
     "website": "https://eos.cafe",
@@ -120,7 +120,7 @@ window.producerList = [
     ]
   },
   {
-    "logo": "http://www.eos.ren/unionlogo/eosunion.jpg",
+    "logo": "https://user-images.githubusercontent.com/550895/37975477-6e1b53dc-31ad-11e8-9367-3415c3bf29b9.png",
     "producer": "eos.union",
     "organization_name": "eos-union",
     "website": "http://www.eos.ren",
