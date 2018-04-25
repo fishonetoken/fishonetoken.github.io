@@ -20,8 +20,8 @@ window.producerList = [
     "organization_name": "ChainPool.io",
     "website": "https://chainpool.io",
     "telegram_user": "https://t.me/chainpool",
-    "API_URL": "",
-    "HTTP": "",
+    "API_URL": "dev.chainpool.io",
+    "HTTP": "7780",
     "P2P": "7781",
     "keybase": "",
     "LngLat": [
@@ -155,8 +155,8 @@ window.producerList = [
     "organization_name": "EOS Authority",
     "website": "",
     "telegram_user": "https://t.me/telepound",
-    "API_URL": "",
-    "HTTP": "",
+    "API_URL": "testnet-scholar.eosauthority.com",
+    "HTTP": "8888",
     "P2P": "9543",
     "keybase": "https://keybase.io/eosauthority",
     "LngLat": [
