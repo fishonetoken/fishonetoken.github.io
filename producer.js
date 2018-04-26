@@ -180,6 +180,21 @@ window.producerList = [
     ]
   },
   {
+    "logo": "https://user-images.githubusercontent.com/550895/39282245-98b9a4c8-48d6-11e8-9276-99457ee1f602.png",
+    "producer": "eoseco",
+    "organization_name": "EOSeco",
+    "website": "http://eoseco.com/",
+    "telegram_user": "https://t.me/eoseco",
+    "API_URL": "scholar.eoseco.com",
+    "HTTP": "8888",
+    "P2P": "9876",
+    "keybase": "https://keybase.io/eoseco",
+    "LngLat": [
+      0,
+      0
+    ]
+  },
+  {
     "logo": "https://static.wixstatic.com/media/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png/v1/fill/w_205,h_205,al_c,usm_0.66_1.00_0.01/4d53b1_c45bb985bedc464087e369a9e0d3118c~mv2.png",
     "producer": "eosocal",
     "organization_name": "eosocal",
