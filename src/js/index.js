@@ -31,6 +31,7 @@ var ScholarTest = {
   </div><span>${producerList[i].producer}</span></th>
   <th><a href="${website}" target="_blank">${name}</a></th>
   <th class="item-last-block"></th>
+  <th class="item-last-irreversible-block"></th>
   <th><a href="${GET_INFO_URL}" target="_blank">${API_URL}</a></th>
   <th>${producerList[i].HTTP}</th>
   <th>${producerList[i].P2P}</th>
@@ -55,7 +56,8 @@ var ScholarTest = {
         var API_URL = producerList[i].API_URL;
         var GET_INFO_URL = `https://${API_URL}:${HTTP}/v1/chain/get_info`;
         self.get(GET_INFO_URL, function (data) {
-          targetProducerObj.querySelector('.item-last-block').innerText = data.last_irreversible_block_num;
+          targetProducerObj.querySelector('.item-last-block').innerText = data.head_block_num;
+          targetProducerObj.querySelector('.item-last-irreversible-block').innerText = data.last_irreversible_block_num;
           targetProducerObj.querySelector('.item-server-version').innerText = data.server_version;
           targetProducerObj.querySelector('.item-time').innerText = data.head_block_time.replace('T', ' ');
 
