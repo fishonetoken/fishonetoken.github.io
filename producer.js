@@ -1,5 +1,20 @@
 window.producerList = [
   {
+    "logo": "https://cdn.bahaoku.cn/image/logo/534287228181548616.png",
+    "producer": "EOS Shanghai",
+    "organization_name": "fish.one",
+    "website": "https://fish.one",
+    "telegram_user": "@danielscai",
+    "API_URL": "testnet.fish.one",
+    "HTTP": "443",
+    "P2P": "9876",
+    "keybase": "https://keybase.io/danielscai",
+    "LngLat": [
+      121.39,
+      31.22
+    ]
+  },
+  {
     "logo": "https://avatars0.githubusercontent.com/u/22501691?s=200&v=4",
     "producer": "bitspace",
     "organization_name": "bitspace",
